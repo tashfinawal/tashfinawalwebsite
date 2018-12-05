@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>TashfinAwal.com</title>
+</head>
+
+<body>
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:regular,bold|Lobster&effect=3d" rel="stylesheet" type="text/css">
+
+<style>
+h1 {
+	font-family: Pacifico, sans-serif;
+    background: green;
+}
+
+p {
+	font-family: Open Sans, sans-serif;
+    color: white;
+    background: red;
+}
+
+h2 {
+	font-family: Open Sans, sans-serif;
+}
+
+h5 {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+    .github {
+        font-family: "Lucida Console", Monaco, monospace;
+        background: aliceblue;
+        font-size: 16px;
+    }
+
+button {
+    font-size: 26px
+    }
+
+</style>
+<div id="intro">
+<h4>
+    <a href="home.html">Click here to go back to the main page</a>
+    </h4>
+<h5 class="github">
+    <a href="https://docs.google.com/document/d/1vhdT96vFGsEc0zUpyWuXfo3sUKVrM28Ek71VKupRKF4/edit?usp=sharing" class="github">Click here for the Wish List</a>
+    </h5>
+<h1 class="font-effect-3d">
+    Christmas is Here!
+    </h1>
+<iframe src="https://giphy.com/embed/lzU2Vr8csxioM" width="480" height="251" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<h5>
+    Currently running global version 1.3 
+    </h5>
+<h2>
+    Rejoyce, pathetic degenerates!
+    </h2>
+</div>
+
+<div id="main">
+<h4>
+    For we are to be exchanging gifts me matey!
+    </h4>
+<p>
+    Do you have the 5-digit Christmas Code that Tashfin gave you? If so, please enter it below! If not, please ask Tashfin for your unique Christmas Code that will unlock who you are the Secret Santa for! 
+    </p>
+<button type="button" onclick="revelation()">Click here to reveal your fate</button>
+
+<p><i> 
+    Note: If the prompt terminates before giving the answer that you seek, it is most likely because you either entered the wrong number, Tashfin gave you the wrong number, or there is a bug in the system. Please let Tashfin know ASAP.
+    </i></p>
+
+<h5>
+    For those who are curious about the source code, you can find them in a repository here:
+    </h5>
+    <p class="github">
+    <a href="https://github.com/tashfinawal/tashfinawalwebsite">Github</a>
+    </p>
+    <p>
+        Also, along with the repository that has all the source code and back-end code, there will be <u>a wiki that explains the story behind my code.</u> I've made this wiki basic enough so that you nignogs that don't have much technical experience can still understand it, while it references enough 'computer-science only' things so that it's enriched reading regardless of your background. Have fun!
+    </p>
+<img src="Christmas-banner.jpg">
+
+<script type="text/javascript">
+    var key_names = {69499: 'Tashfin', 69463: 'Biravien', 69083: 'Bhapushon', 69523: 'Sanuyan', 69883: 'Arjunan', 69871: 'Vincent', 69205: 'William', 69259: 'Ashvin'};
+    var key_pairs = {69499: '69083', 69463: '69523', 69083: '69883', 69523: '69205', 69883: '69259', 69871: '69463', 69205: '69499', 69259: '69871'};
+    function revelation() {
+        var code = prompt('What is your Christmas Code that Tashfin gave you?');
+        var i = 0;
+        while (i < 8) {
+            if (code == Object.keys(key_pairs)[i]) {
+                alert('You hear a voice in the distance. Nay, not a voice: a call. A beckoning from the FUHLEX. Rise to your duty as Secret Santa. Click to continue.');
+                alert('Tis the season to prove your worthiness, will you be a Bronze Grinch Friend or a Challenger Secret Santa? Its up to you to decide.');
+                alert('You are the Secret Santa for ' + key_names[key_pairs[code]] + '. Click on the link at the top to explore his wishlist.');
+                i = 8
+            }
+            i++
+        }
+    function partner(num) {
+        
+    }
+    }
+    </script>
+</body>
+</html>
