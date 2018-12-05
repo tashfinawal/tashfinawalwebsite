@@ -6,13 +6,47 @@
 </head>
 
 <body>
-<h1>Hello World</h1>
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Open+Sans:regular,bold|Lobster&effect=3d" rel="stylesheet" type="text/css">
+
+<style>
+h1 {
+	font-family: Pacifico, sans-serif;
+}
+
+p {
+	font-family: Open Sans, sans-serif;
+}
+
+h2 {
+	font-family: Open Sans, sans-serif;
+}
+
+h5 {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.change_log {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12px;
+	display:none;
+}
+</style>
+<div id="intro">
+<h1 class="font-effect-3d">Hello World</h1>
 <h2>Welcome to Tashfin's website</h2>
-<h5> Currently running version 1.0 </h5>
+<h5> Currently running version 1.1 </h5>
+<div id="change_log" class="change_log"> 
+April 5: Version 1.1 - Implementated family fonts, updates in sizes, implementation of the Change Log
+April 3
+</div>
+<button type="button" onclick="document.getElementById('change_log').style.display='block'">See Latest Changes</button>
+</div>
+<div id="welcome">
 <p>Well. <br />
 This is awkward. <br />
 It appears you've landed on this page ahead of its time. No fear, the amazing stuff is on the way, so for now sit tight and if you've got any questions, comments or concerns, feel free to send them to tashfin.awal@gmail.com <br />
 Thanks!
 </p>
+</div>
 </body>
 </html>
