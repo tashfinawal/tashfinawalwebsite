@@ -5,4 +5,4 @@ To run the Python files, you will need a valid Python Intepretor, which can be e
 The Python files could also be edited with generic Text Editor, although a Python/Programming Editor would be better recommended.
 Most of the programs that I listed as requirements often come bundled, so a Python Editor can double as an intepretor, and there are some programs that can handle HTML and Python at once, and I suggest you research further into these, as they are free or available for purchase.
 All the material in this repository is free for personal use, however, please contact me for the business use of the contents of this repository.
-The size of this repository is approximately 332KB.
+The size of this repository is approximately 333KB.
