@@ -38,39 +38,60 @@ button {
     font-size: 26px
     }
     
+    .important {
+        color: red;
+        background: black;
+    }
+    
     .note {
         color: darkred;
+        background: white;
+    }
+    
+    .guidelines {
+        color: darkgreen;
         background: white;
     }
     .redirect {
         font-size: 24px;
         background: white;
-    }    
+    }  
 
 </style>
 <div id="intro">
 <p class="redirect">
     <input class="redirect" type="button" onclick="parent.location='home.html'" value="Click here to go back to the homepage"/>
     </p>
-<h5 class="github">
-    <input class="redirect" type="button" onclick="parent.open('https://docs.google.com/document/d/1vhdT96vFGsEc0zUpyWuXfo3sUKVrM28Ek71VKupRKF4/edit')" value="Click here to go to the Wishlist"/>
-    </h5>
 <h1 class="font-effect-3d">
     Christmas is Here!
     </h1>
-<iframe src="https://giphy.com/embed/lzU2Vr8csxioM" width="480" height="251" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-<h5>
+<iframe src="https://giphy.com/embed/11BEQyXROgnLTG" width="480" height="352" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<h5 class="github">
     Currently running global version 1.3 
     </h5>
 <h2>
-    Rejoyce, pathetic degenerates!
+    Assemble, OriGinal Alexander Graham Bell + a Delicious back (OGAGBD)!
     </h2>
 </div>
 
 <div id="main">
 <h4>
-    For we are to be exchanging gifts me matey!
+    For we are to be swapping elbow grease and gifts!
     </h4>
+<h2 class="important">
+    GUIDELINES
+    </h2>
+    
+<p class="guidelines">
+    Here are the guidelines that we brainstormed and agreed upon as a group (relatively)
+    <ul class="guidelines">
+        <li>Cost of gift should be <b>$10</b>, max $20 including tax
+        <li><b>Creativity > Costliness;</b> try to make the gift more meaningful/sentimental and less about the money that went into it</li>
+        <li><b>No wishlists</b>; the recieving party should be not only surprised of who their Santa is, but what they are recieving</li>
+        <li>Gifts cannot have been purchased with <b>Brazio</b>, which is <i>Brazil's Cryptocurrency </i>(because it's worthless) </li>
+    </ul>
+    </p>
+
 <p>
     Do you have the 5-digit Christmas Code that Tashfin gave you? If so, please enter it below! If not, please ask Tashfin for your unique Christmas Code that will unlock who you are the Secret Santa for! 
     </p>
@@ -99,9 +120,9 @@ button {
         var i = 0;
         while (i < 8) {
             if (code == Object.keys(key_pairs)[i]) {
-                alert('You hear a voice in the distance. Nay, not a voice: a call. A beckoning from the FUHLEX. Rise to your duty as Secret Santa. Click to continue.');
-                alert('Tis the season to prove your worthiness, will you be a Bronze Grinch Friend or a Challenger Secret Santa? Its up to you to decide.');
-                alert('You are the Secret Santa for ' + key_names[key_pairs[code]] + '. Click on the link at the top to explore his wishlist.');
+                alert('You hear a voice in the distance. Nay, not a voice: a call. A beckoning from OGAGBD. Rise to your duty as Secret Santa. Click to continue.');
+                alert('Tis the season to prove your worthiness, will you be a Musty Grinch or the Secretest Santa of them all? Its up to you to decide.');
+                alert('You are the Secret Santa for ' + key_names[key_pairs[code]] + '. I am excited to see what generic fruitcake you decide to bake this year!');
                 i = 8
             }
             i++
