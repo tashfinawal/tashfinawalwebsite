@@ -33,12 +33,12 @@ recipient = keys.copy()
 for i in range(len(keys)):
     choosing = choice(recipient)
     if choosing != keys[i]:
-        key_swap[keys[i]] = choice(recipient)
+        key_swap[keys[i]] = choosing
         recipient.remove(key_swap[keys[i]])
     else:
         while choosing == keys[i]:
             choosing = choice(recipient)
-        key_swap[keys[i]] = choice(recipient)
+        key_swap[keys[i]] = choosing
         recipient.remove(key_swap[keys[i]])
 
 with open("keys to keys.txt", 'w') as f5:
